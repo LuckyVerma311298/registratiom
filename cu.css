@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: white;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+.header-icons .icon {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+header .student-image {
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+nav .nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Ensure previous styles are retained */
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allow content to wrap */
+    padding: 20px; /* Increase padding for more space */
+    margin-bottom: 20px; /* Increase margin for separation */
+}
+
+.registration h2 {
+    background-color: #333; /* Changed background color */
+    color: white; /* Changed text color */
+    border: 1px solid #ccc;
+    padding: 40px; /* Increase padding for more space */
+    margin: 0; /* Reset margin to 0 for consistent spacing */
+    border-radius: 5px;
+    white-space: normal; /* Allow text to wrap */
+    text-align: center; /* Center align the heading */
+    width: 150%; /* Increase width to 150% of the container */
+}
+.registration-header-left {
+    flex: 1; /* Allow left part to grow */
+    text-align: center; /* Center align the heading */
+}
+
+.registration-header-right {
+    flex: 1; /* Empty column for spacing */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #d4af37;
+    padding: 24px; /* Adjusted padding to increase height */
+    text-align: left;
+}
+
+table th {
+    background-color: #fffacd;
+    color: black;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: flex-start; /* Align checkboxes to the left */
+    flex-wrap: wrap; /* Allow checkboxes to wrap */
+}
+
+.checkbox-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: calc(50% - 20px); /* Equal width for two columns */
+    flex-wrap: wrap; /* Allow text to wrap */
+}
+
+.checkbox-box label {
+    margin-left: 10px;
+    white-space: normal; /* Allow text to wrap within label */
+    max-width: calc(100% - 40px); /* Limit width to prevent overflowing */
+}
+
+.checkbox-box input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.empty-column {
+    flex: 1; /* Fill empty space on the right */
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    background-color: #f9f9f9; /* Changed background color */
+    color: black; /* Changed text color */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
