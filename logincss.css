@@ -1,0 +1,73 @@
+/* Reset some basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the whole page */
+.container {
+    background: url("C:/Users/Pavilion/OneDrive/Desktop/loginpage.jpg") no-repeat center center fixed; /* Add your background image path here */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Content box styles */
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Logo styles */
+.logo {
+    width: 200px; /* Adjust size as needed */
+}
+
+/* Registration button styles */
+.registration-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Form styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input field styles */
+.user-id {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Next button styles */
+.next-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.registration-button:hover, .next-button:hover {
+    background-color: darkred; /* Change color on hover */
+}
