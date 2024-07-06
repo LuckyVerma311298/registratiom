@@ -1,0 +1,130 @@
+/* Reset some basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the whole page */
+.container {
+    background: url("C:/Users/Pavilion/OneDrive/Desktop/loginpage.jpg") no-repeat center center fixed; /* Add your background image path here */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Content box styles */
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Logo styles */
+.logo {
+    width: 200px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input field styles */
+.input-container {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.user-id, .password, .captcha {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.input-icon img {
+    width: 20px; /* Adjust icon size */
+}
+
+.captcha-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.captcha-image {
+    margin-left: 10px;
+    height: 35px; /* Adjust captcha image height */
+}
+
+.refresh-captcha {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Next button styles */
+.next-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Hover effects */
+.next-button:hover {
+    background-color: darkred; /* Change color on hover */
+}
+
+/* Forgot Password link styles */
+.forgot-password {
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+/* Login link styles */
+.login-link {
+    color: white;
+    background-color: red;
+    padding: 10px 184px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px; /* Adjust spacing */
+    margin-left: 10px; /* Adjust spacing */
+}
+
+.login-link:hover {
+    background-color: #0056b3;
+}
